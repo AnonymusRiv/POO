@@ -11,6 +11,8 @@ int main(){
 
     while(opcion!=10){
 
+            //! tengo que camnbiar este programa y/o all menos la funcion que imprime por pantalla
+            
         cout<<"----------------------------------------------------------"<<endl;
         cout<<"| Pulse una opción                                        |"<<endl;
         cout<<"| 1. Mostrar el valor de los dados                        |"<<endl;
