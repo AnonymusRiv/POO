@@ -2,8 +2,8 @@
 #include <iostream>
 #include "ruleta.h"
 
-bool Ruleta::setBola(int const &bola){
-    if(bola<0 || bola>36){
+bool Ruleta::setBola(int const &bola){                                                      //esta función nos permitirá poner el valor a la bola
+    if(bola<0 || bola>36){                                                                      //comprobamos si el valor no está entre 0 y 36
         return false;
     }
     bola_=bola;

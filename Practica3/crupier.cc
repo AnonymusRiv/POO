@@ -1,1 +1,1 @@
-#include "crupier.h"
+#include "crupier.h"            //el archivo crupier.cc solo tiene en include del .h ya que todas las funciones son inline
