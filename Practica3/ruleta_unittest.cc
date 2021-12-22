@@ -239,4 +239,24 @@ TEST(Ruleta, getPremiosCero) {
   EXPECT_EQ(1000360, r.getBanca());
 }
 
+/*MIS TESTS PARA LAS FUNCIONES CREADAS POR MI*/
+TEST(Ruleta, esRojo) {
+  Crupier c("33XX","codigo1");
+  Ruleta r(c);
+  EXPECT_TRUE(r.esRojo(1));
+  EXPECT_FALSE(r.esRojo(2));
+}
 
+TEST(Ruleta, esPar) {
+  Crupier c("33XX","codigo1");
+  Ruleta r(c);
+  EXPECT_TRUE(r.esPar(12));
+  EXPECT_FALSE(r.esPar(17));
+}
+
+TEST(Ruleta, esAlto) {
+  Crupier c("33XX","codigo1");
+  Ruleta r(c);
+  EXPECT_TRUE(r.esAlto(20));
+  EXPECT_FALSE(r.esAlto(5));
+}

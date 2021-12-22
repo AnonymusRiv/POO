@@ -3,9 +3,9 @@
 #include <list>
 #include "jugador.h"
 
-int main(){
-    using namespace std;
+using namespace std;
 
+int main(){
     system("clear");
     string dni;
     string codigo;
@@ -38,6 +38,7 @@ int main(){
     cout<<"Introduzca el pais del jugador: ";
     cin>>cadena;
     jugador.setPais(cadena);
+    cout<<endl;
 
     list<Apuesta> aux;                                      //creamos una lista auxiliar de tipo apuestas para ver las apuestas del jugador
     jugador.setApuestas();                                  //el jugador realizará sus apuestas

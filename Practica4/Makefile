@@ -15,7 +15,7 @@
 # Points to the root of Google Test, relative to where this file is.
 # Remember to tweak this if you move this file.
 #GTEST_DIR = /home/jaromero/juan/programacion/c++/googletest/gtest-1.7.0
-GTEST_DIR = /home/jaromero/juan/asignaturas/poo/practicas/2019/googletest-1.10.x/googletest
+GTEST_DIR = /home/anonymusriv/Escritorio/UCO/2curso/1cuatri/POO/googletest
 # Where to find user code.
 # USER_DIR = ../samples
 
@@ -39,10 +39,10 @@ GTEST_HEADERS = $(GTEST_DIR)/include/gtest/*.h \
 # House-keeping build targets.
 # make comienza con el primer target, el "default goal"
 # que incluye $(TEST) y, por tanto, intentará constriur cada uno de esos ejecutables
-all : $(TESTS)
+all : $(TESTS) clean
 
 clean :
-	rm -f $(TESTS) gtest.a gtest_main.a *.o
+	rm -f gtest.a gtest_main.a *.o
 
 # Builds gtest.a and gtest_main.a.
 

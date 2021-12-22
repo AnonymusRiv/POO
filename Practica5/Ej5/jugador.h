@@ -27,7 +27,7 @@ class Jugador: public Persona{                                              //cr
         inline void setDinero(int const &dinero){dinero_=dinero;}           //esta función inline nos permitirá poner el dinero al jugador que recibira el propio dinero como parámetro
         inline int getDinero() const {return dinero_;}                      //esta función inline nos permitirá devolver el dinero de un jugador
 
-        void setApuestas();                                                 //esta función nos permitirá leer las apuestas de un jugador
+        void setApuestas();                                                 //esta función nos permitirá poner las apuestas de un jugador
         inline list<Apuesta> getApuestas() const{return apuestas_;}         //esta función inline nos permitirá devolver las apuestas de un jugador
 };
 
