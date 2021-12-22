@@ -100,11 +100,11 @@ int main(){
                 cout<<endl;
                 break;
 
-            case 10:
+            case 10:                                                                          //llamamos a la nueva función insertador recién creada para mostrar los valores de ambos dados
                 d.insertador();
             break;
 
-            case 11:
+            case 11:                                                                          //llamamos a la nueva función extractor recién creada para insertar los valores de ambos dados
                 d.extractor();
             break;
 
